@@ -1,0 +1,16 @@
+.calendar-container {
+  display: grid;
+  width: 50%;
+  aspect-ratio: 16/9;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
+.calendar-square {
+  margin: 2px;
+  border-radius: 2px;
+}
+.calendar-square-highlighted {
+  background: repeating-linear-gradient(-30deg, #708090, #708090 10px, #C0C0C0 10px, #C0C0C0 20px);
+}
+
+/*# sourceMappingURL=Calendar.css.map */
